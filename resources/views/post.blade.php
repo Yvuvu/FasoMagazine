@@ -234,7 +234,7 @@
                         @foreach($last as $last)
                         <div class="single-blog-post small-featured-post d-flex">
                             <div class="post-thumb">
-                                <a href="{{URL('post', $last->slug )}}"><img src="{{asset('assets/img/bg-img/19.jpg')}}" alt=""></a>
+                                <a href="{{URL('post', $last->slug )}}"><img src="{{ Voyager::image( $last->image ) }}" alt=""></a>
                             </div>
                             <div class="post-data">
                             <a href="{{URL('post', $last->slug )}}" class="post-catagory">{{$last->category->name}}</a>
