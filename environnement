@@ -1,6 +1,6 @@
 APP_NAME=Laravel
 APP_ENV=local
-APP_KEY=4e293410b4f8bee7624af45ad120b665-us17
+APP_KEY=6c0c92c57915fd1112890dd094ec4a31-us17
 APP_DEBUG=true
 APP_URL=http://localhost/FasoMagazine/public
 
